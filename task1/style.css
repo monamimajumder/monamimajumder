@@ -1,0 +1,356 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+html,
+body{
+    height:100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.menu{
+    background-image: url(snap-menu.jpg);
+    background-position:center;
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    
+}
+
+.navbar1{
+    height:50px;
+    border-bottom:1px white dashed;
+}
+
+.navbar1 .nav1{
+    float:left;
+    margin-top:0px;
+    margin-left:50px;
+}
+.navbar1 .nav1 a{
+    color:white;
+    padding:5px;
+    font-size:22px;
+}
+
+.navbar1 .nav2{
+    float:right;
+    margin-top:0px;
+    margin-right:50px;
+}
+
+.nav2 ul li{
+    display:inline-block;
+    list-style-type: none;
+    padding:5px;
+}
+
+.nav2 ul li a{
+    text-decoration:none;
+    color:white;
+    padding:10px;
+}
+
+.navbar2 .nav3{
+    float:left;
+    margin-left:50px;
+    display:inline-block;
+    position:absolute;
+    top:10%;
+    left:0%;
+}
+
+.navbar2 h1{
+    position:absolute;
+    top:10%;
+    color:#228B22;
+    margin-left:100px;
+    font-size:30px;
+    font-weight:none;
+}
+
+.menu .navbar2 .nav4 ul{
+    float:right;
+    position:absolute;
+    top:9%;
+    right:20px;   
+}
+.nav4 ul li{
+    display:inline-block;
+}
+
+.nav4 ul li a{
+    float:right;
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    padding:20px;
+}
+
+
+
+.menu .navbar2 .nav3 .image1{
+    padding-left:0%;
+}
+
+.menu .image2{
+    padding-top:20%;
+    padding-left:35%;
+    
+}
+
+.menu h2{
+    color:white;
+    font-size:50px;
+    padding-left:27%;
+}
+
+
+.button1 .btn{
+    position:absolute;
+    top:80%;
+    left:45%;
+    transform:translate(-50%,-50%);
+    background-color:white;
+    width:150px;
+    height:40px;
+    border-radius: 15px;
+}
+
+.button1 .btn{
+    padding:10px 30px;
+    text-decoration:none;
+    color:rgb(18, 168, 78);
+    font-size:25px;
+}
+
+
+.page-wrapper{
+    min-height:100vh;
+
+}
+
+.main-content{
+    width:80%;
+    position:absolute;
+    top:100%;
+    left:10%;
+    right:10%;
+    overflow:auto;
+}
+
+.main-content .post{
+    width:95%;
+    height:370px;
+    margin:10px auto;
+    border:2px solid #3CB371;
+    background-color:white;
+}
+
+
+.main-content .post .postimg{
+    width:40%;
+    height:100%;
+    float:left;
+}
+
+.main-content .post .post-preview{
+    width:60%;
+    float:right;
+    
+}
+.main-content .post .post-preview h2{
+    margin-top:35px;
+    margin-left:20px;
+    color:rgb(18, 168, 78);
+    font-size:30px;
+}
+
+.page-wrapper .main-content .post .post-preview #orange h2{
+    color:black;
+}
+.main-content .post .post-preview .icons{
+    margin-top:10px;
+    margin-left:20px;
+}
+.main-content .post .post-preview .icons ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding:7px;
+}
+.main-content .post .post-preview .preview-text {
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.main-content .post .post-preview #mango{
+    margin-top:50px;
+    margin-left:20px;
+}
+
+.main-content .post .post-preview #mango a{
+    color:rgb(18, 168, 78);
+    padding:10px;
+    font-size:20px;
+    text-decoration: none;
+    background-color: white;
+    border:1px 	rgb(18, 168, 78) solid;
+}
+
+.main-content .post .post-preview #mangoo{
+    margin-top:50px;
+    margin-left:20px;
+}
+
+.main-content .post .post-preview #mangoo a{
+    color:white;
+    padding:10px;
+    font-size:20px;
+    text-decoration: none;
+    background-color:rgb(18, 168, 78);
+    border:1px rgb(18, 168, 78) solid;
+}
+
+
+
+
+.footer{
+    position:relative;
+    height:350px;
+}
+
+.footer-top{
+    height:120px;
+    background-color: rgb(18, 168, 78);
+    position:relative;
+    width:100%;
+    bottom:-47%;
+    display:flex;
+}
+.footer-top .footer-left{
+    width:40%;
+    float:left;
+}
+.footer-top .footer-right{
+    padding:5px;
+    width:50%;
+    display:flex;
+}
+
+.footer-top .footer-right .footer-details{
+    padding-top:20px;
+    color:white;
+    padding-right:12px;
+}
+.footer-top .footer-details ul li{
+    list-style-type: none;
+    padding:5px;
+    border-right:1px white solid;
+}
+
+.footer-top .footer-right .footer-details .saturday ul li{
+    border:none;
+}
+.footer-top p{
+    color:white;
+    font-size:30px;
+    margin-top:7%;
+    margin-left:6%;
+
+}
+.footer .footer-content{
+    top:100%;
+    height:310px;
+    width:100%;
+    position:absolute;
+    display:flex;
+    background-color:black;
+}
+
+.footer .footer-content .footer-section{
+    flex:1;
+}
+
+.footer .footer-content .footer-section h2{
+    font-weight:bold;
+    font-size:25px;
+    color:rgb(18, 168, 78);
+    padding:15px;
+
+}
+
+.footer .footer-content .footer-section ul li{
+    list-style-type: none;
+    padding:10px;
+    color:white;
+}
+
+.footer .footer-content .footer-section ul li .fa-map-marker{
+    color:rgb(18, 168, 78);
+    padding:5px 10px 5px 5px;
+    
+}
+.footer .footer-content .footer-section ul li .fa-phone{
+    color:rgb(18, 168, 78);
+    padding:5px 10px 5px 5px;
+    
+}
+.footer .footer-content .footer-section ul li .fa-envelope{
+    color:rgb(18, 168, 78);
+    padding:5px 10px 5px 5px;
+    
+}
+.footer .footer-content .footer-section ul li .fa-facebook{
+    color:rgb(18, 168, 78);
+    padding:5px 10px 5px 5px;
+    
+}
+.footer .footer-content .footer-section ul li .fa-instagram{
+    color:rgb(18, 168, 78);
+    padding:5px 10px 5px 5px;
+    
+}
+.footer .footer-content .footer-section ul li .fa-youtube{
+    color:rgb(18, 168, 78);
+    padding:5px 10px 5px 5px;
+    
+}
+
+
+.footer .footer-content .footer-section p{
+    padding-top:15px;
+    padding-left:10px; 
+    padding-bottom:10px;
+    color:white;
+}
+
+
+.footer .footer-content .footer-section .contact .white{
+    border:1px white solid;
+    background-color:white;
+    padding:10px;
+    width:70%;
+    
+}
+
+.footer .footer-content .footer-section .green{
+    border:1px rgb(18, 168, 78); solid;
+    background-color:rgb(18, 168, 78);
+    color:white;
+    padding:10px;
+    width:70%;
+    text-align:center;
+}
+
+.footer .footer-bottom{
+    background-color: white;
+    height:40px;
+    color:black;
+    text-align:center;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    padding-top:20px;
+    width:100%;
+    bottom:-100%;
+}
